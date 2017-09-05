@@ -1,0 +1,33 @@
+.top {
+
+  margin: 20px;
+  padding: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+}
+.wrap {
+  display: table;
+  border-collapse:separate;
+  border-spacing: 20px;
+}
+.col {
+  padding: 20px;
+}
+section {
+  border: 1px solid #000;
+   background-color: #fff;
+  display: table-cell
+}
+.left {
+  width: 160px;
+  /*float: left;*/
+}
+.middle {
+  margin: 0 20px;
+  /*margin-left: 220px;
+  margin-right: 140px;*/
+}
+.right {
+  width: 80px;
+  /*float: right;*/
+}

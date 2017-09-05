@@ -1,0 +1,191 @@
+body,html,* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 16px;
+}
+ul li {
+  list-style: none
+}
+.title {
+  height: 60px;
+  padding: 0 30px;
+  background-color: #333333;
+}
+.title h1 {
+ font-size: 20px;
+ line-height: 60px;
+ height: 60px;
+ display: inline-block;
+}
+.title ul {
+  color: #fff;
+  float: right;
+} 
+.title li {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 10px;
+}
+.title .active {
+  color: #555
+}
+
+.article {
+  padding: 30px;
+  background-color: #dedede;
+}
+.article article {
+  background-color: #fff;
+}
+
+.article h2 {
+  height: 45px;
+}
+.article h3 {
+  color: #aab0ae;
+  height: 35px;
+  line-height: 35px;
+}
+.article .info {
+  height: 30px;
+  line-height: 30px;
+}
+.article p {
+  margin: 10px 0;
+  text-indent: 32px;
+  line-height: 1.6;
+}
+.section {
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #cbcbcb;
+  border-bottom: 3px solid #a1a1a1;
+  background-color: #fff;
+}
+.list {
+  margin-left: 30px;
+}
+.list li {
+  height: 25px;
+  line-height: 25px;
+}
+.pList {
+  margin-left: 30px;
+}
+.pList h4 {
+  line-height: 45px;
+  height: 45px;
+  text-align: center;
+}
+.pList li {
+  height: 180px;
+  width: 150px;
+  margin-bottom: 20px; 
+  border: 1px solid #cbcbcb;
+}
+.pList img {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+}
+ol {
+  margin-left: 30px;
+}
+ol li {
+  line-height: 30px;
+  height: 30px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;  
+  border: none;  
+}
+th {
+  background-color: #333333;
+  color: #fff;
+  border-right: 1px solid #fff;
+  font-weight: 400;
+  height: 30px;
+  padding-left: 10px;
+}
+td {
+  border: 1px solid #cbcbcb;
+  border-top: none;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+tfoot {
+  background-color: #ccc;
+}
+
+.side_title {
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  border-left: 3px solid #cbcbcb;
+  padding-left: 20px;
+  font-weight: 100;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.form {
+  position: relative;
+}
+.form .label {
+  position: absolute;
+  right: 60%;
+}
+
+.form .input {
+  position: absolute;
+  left: 40%;
+}
+.form_wrap {
+  height: 30px;
+}
+.des {
+  height: 150px;
+}
+.submit {
+  text-align: center;
+  margin-top: 20px;
+}
+.submit button{
+  background-color: #3355d0;
+  border-radius: 5px;
+  color: #fff;
+  width: 90%;
+  height: 30px;
+}
+.lisence {
+  height: 50px;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  padding-top: 15px
+}
+
+
+.left {
+  margin-right: 400px;
+}
+.right {
+  width: 300px;
+  float: right;
+}
+.imgWidth {
+  width: 100%;
+  max-width: 750px;
+}
+input[type=text], input[type=password]{
+  width: 100px;
+}
+.form {
+  font-size: 14px;
+}
