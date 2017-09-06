@@ -21,7 +21,7 @@ li {
   margin: 0 auto;
   background-color: #fff;
   padding: 0 44px;
-  border-bottom: 1px solid #938e8c;
+  border: 1px solid #000
 }
 
 .head {
@@ -274,7 +274,79 @@ li {
   height: 318px;
   color: #5a5b5b;
   background-color: rgb(237,236,214);
+  margin-top: 20px;
 }
 .section2 ul {
-  margin: 20px;
+  padding: 30px;
+  line-height: 32px;
+}
+.section2 ul span {
+  font-size: 12px;
+  font-style: oblique;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #10456b;
+  display: inline-block;
+}
+.section_left {
+  width: 260px;
+  height: 160px;
+  background-color: #d45d5c;
+  padding: 37px 10px;
+  float: left;
+  font: 12px "simhei";
+  line-height: 14px;
+  color: #fff;
+}
+.section_left .zero {
+  font-size: 110px;
+  font-family: '微软雅黑','"Microsoft YaHei';
+  float: left;
+  line-height: 86px;
+  margin-right: 10px;
+  height: 86px;
+  border-right: 2px solid #fff;
+}
+.section_left span {
+  font: 21px 'simhei';
+  font-style: oblique;
+  line-height: 24px;
+  height: 48px;
+}
+.section_right {
+  float: right;
+  width: 180px;
+  height: 160px;
+  font-size: 14px;
+  color: #5a5b5b;
+  font-family:  "simhei";
+  font-style: oblique;
+  line-height: 16px;
+}
+.section_right span {
+  font: 72px 'simhei';
+  color: #d45d5c;
+}
+.section_right span:first-child {
+  float: left;
+  margin: -17px 7px -45px -36px;
+}
+.section_right span:last-child {
+  float: right;
+  margin-top: -4px;
+  margin-right: -16px
+}
+.footer {
+  margin-top: 30px;
+  border-top: 1px solid #938e8c;
+  height: 50px;
+}
+.footer span {
+  font: 12px 'simhei';
+  color: #d45d5c;
+  float: right;
 }
