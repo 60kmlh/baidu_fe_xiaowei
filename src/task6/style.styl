@@ -1,0 +1,32 @@
+yahei = "'微软雅黑','Microsoft YaHei'"
+songti = 'SimSun'
+heiti = 'SimHei'
+kaiti = 'KaiTi'
+
+vender(prop, args)
+  -webkit-{prop} args
+  -moz-{prop} args
+  {prop} args
+
+box-sizing()
+  vender('box-sizing', arguments)
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+html
+  font-size 16px
+  font-family yahei
+li
+  list-style none
+
+.wrap
+  width 980px
+  margin 0 auto
+  background-color #fff
+  padding 0 44px
+  border 1px solid #000
+
+.head
+  width 892px
+  border-bottom 2px solid #938e8c

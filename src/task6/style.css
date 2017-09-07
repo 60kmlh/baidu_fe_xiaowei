@@ -8,7 +8,7 @@
 
 html {
   font-size: 16px;
-  font-family: '微软雅黑','"Microsoft YaHei'
+  font-family: '微软雅黑','Microsoft YaHei'
 }
 
 li {
@@ -150,7 +150,7 @@ li {
 .intro_content h3 {
   text-decoration: underline;
   font-size: 16px;
-  font-family: '微软雅黑','"Microsoft YaHei';
+  font-family: '微软雅黑','Microsoft YaHei';
   margin-bottom: 10px;
 }
 .intro_content .what {
@@ -167,7 +167,7 @@ li {
 }
 .intro_content3 ul {
   margin-top: 30px;
-  font-family: '微软雅黑','"Microsoft YaHei';
+  font-family: '微软雅黑','Microsoft YaHei';
 }
 .intro_content3 li {
   line-height: 16px;
@@ -222,7 +222,7 @@ li {
   padding-top: 20px;
 }
 .main_left_artical .first_letter {
-  font: 70px '微软雅黑','"Microsoft YaHei';
+  font: 70px '微软雅黑','Microsoft YaHei';
   color: #f5e327;
   float: left;
   margin-top: -10px;
@@ -304,7 +304,7 @@ li {
 }
 .section_left .zero {
   font-size: 110px;
-  font-family: '微软雅黑','"Microsoft YaHei';
+  font-family: '微软雅黑','Microsoft YaHei';
   float: left;
   line-height: 86px;
   margin-right: 10px;

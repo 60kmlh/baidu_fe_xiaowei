@@ -1,0 +1,45 @@
+vender(prop, args)
+  -webkit-{prop} args
+  -moz-{prop} args
+  {prop} args
+
+box-sizing()
+  vender('box-sizing', arguments)
+
+getGridWidth(n)
+  n/12*100%
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+  
+.wrap
+  margin 20px
+.row
+  width 100%
+  max-width 1200px
+  &:before, &:after
+    content ''
+    display table
+    clear both
+[class*='col']
+  float left
+  min-height 1px
+  padding 12px
+  margin-top 12px
+
+.content
+  border 1px solid #999
+  height 50px
+  background-color #eeeeee
+
+@media all and (min-width:768px)
+  for n in 1..12
+    .col-lg-{n}
+      width getGridWidth(n)
+
+@media all and (max-width:768px)
+  for n in 1..12
+    .col-md-{n}
+      width getGridWidth(n)
+
